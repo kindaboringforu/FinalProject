@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>2020 China Scholarships ✈🀄</title>
+    <style>
+      h1 {
+        font-family: Palatino Linotype, Book Antiqua, Palatino, serif;
+        color: #090088;
+        letter-spacing: 3px;
+        border-radius: 60px 0 60px 0;
+        text-align: center;
+        margin: 0 auto;
+        display: block;
+        background-color: #e7f1fd;
+        border: 4px dotted #930077;
+        font-size: 30px;
+        line-height: 22px;
+        padding: 16px 24px;
+      }
+      button {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        border-radius: 25px;
+        margin: -563px 160px 500px 900px;
+        display: block;
+        background-color: #fff;
+        border: 3px solid #090088;
+        color: #930077;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 22px;
+        padding: 16px 24px;
+        transition: all 250ms ease;
+        cursor: grabbing;
+      }
+
+      button:hover {
+        color: #fff;
+        background: #4f16df;
+      }
+      body {
+        background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+        cursor: pointer;
+      }
+      h3 {
+        color: #520143;
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+        font-weight: bold;
+      }
+      p {
+        text-align: justify;
+        text-justify: inter-word;
+      }
+      ul {
+        list-style: none;
+        margin: -25px 0px 0px 0px;
+        padding: 0;
+        width: 100%;
+      }
+      li {
+        margin: 10px;
+        padding: 24px;
+        background-color: #fff;
+        border: 3px solid #090088;
+        border-radius: 4px;
+        transition: background-color 250ms ease;
+      }
+      li:hover {
+        background-color: #f8c0ee;
+      }
+      .link1 {
+        color: #db0404;
+      }
+      h2 {
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: left;
+        margin: -45px 500px 45px 10px;
+        padding: 15px 20px;
+        font-size: 14px;
+      }
+      .China3 {
+        margin: -53px 500px 45px 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>
+      CHINA 🐉欢迎来到《CHINESE FROM <em> ZERO </em>👶 TO <em> HERO </em> 💪》
+    </h1>
+    <img
+      src="https://wallpapercave.com/wp/wp2973039.jpg"
+      alt="China3"
+      width="85"
+      class="China3"
+    />
+    <h2>
+      《🎈🎈🎈If you are someone curious about the Chinese Culture and excited
+      to learn Chinese, choosing one of theses Scholarships may be the best
+      option for you! Down below you can check it out 😉》
+      <a
+        href="http://cis.chinese.cn/account/login"
+        target="_blank"
+        class="link1"
+      >
+        More info
+      </a>
+    </h2>
+    <ul>
+      <li>
+        <h3>
+          A. Scholarship for Four-Week Study
+        </h3>
+        <p>
+          📌The program commences either in July or December 2019, and provides
+          a four-week scholarship. Applicants holding the X1 or X2 visa are not
+          eligible. An HSK test score is required. Inside this programme you can
+          choose among these 2 options: Traditional Chinese Medicine and Taiji
+          Culture; Chinese Language plus Home-Stay Experience in a Chinese
+          Family.
+        </p>
+      </li>
+      <li>
+        <h3>
+          B. Scholarship for One-Semester Study
+        </h3>
+        <p>
+          📌The program commences either in September 2019 or March 2020, and
+          provides scholarship of a maximum of 5 months. Applicants holding the
+          X1 or X2 visa are not eligible. Applicants shall have a minimum score
+          of 180 on the HSK test (Level 3), and an HSKK test score is required.
+          You can choose between TCSOL, Chinese Language and Literature, Chinese
+          History and Chinese Philosophy or Traditional Chinese Medicine and
+          Taiji Culture.
+        </p>
+      </li>
+      <li>
+        <h3>
+          C. Scholarship for Bachelor’s Degree in Teaching Chinese to Speakers
+          of Other Languages (BTCSOL)
+        </h3>
+        <p>
+          📌The program commences in September 2019 and provides scholarship for
+          a maximum of four academic years. Applicants shall hold a high school
+          diploma and a minimum score of 210 on the HSK Test (Level 4) as well
+          as 60 on the HSKK test (Intermediate Level).
+        </p>
+      </li>
+    </ul>
+    <button>
+      加油！JOIN US!🤗
+    </button>
+    <script>
+      function client() {
+        let age = prompt(
+          "Hello there! 😀 May I ask you, how old are you? [It is important for admission matters😉]"
+        );
+        if (age >= 18) {
+          alert(
+            "Welcome🎈🎈🎈" +
+              "!" +
+              " " +
+              "Be free to ask us via Instagram @boringforu all your doubts about 2020 Scholarships admissions!"
+          );
+        } else {
+          alert(
+            "Our apologies 🤔😮 You can still visit our website 😛, but you will not be able to apply 2020 China Scholarships."
+          );
+        }
+      }
+      client();
+      function joinUs() {
+        let mail = prompt(
+          "Glad you are interested in studying in China! Please, tell us your email address so we can continue.😋👍"
+        );
+        let capital = prompt(
+          "Before proceeding, please, answer this simple question: What is the capital of China?"
+        );
+        capital = capital.toLocaleLowerCase().trim();
+        let h1 = document.querySelector("h1");
+
+        if (capital === "beijing" || capital === "peking") {
+          h1.innerHTML =
+            "Done✔ Verify your email address and check the Application Procedure!😀";
+        } else {
+          h1.innerHTML = "WRONG" + "!😣" + "Try again or you can not join us!";
+        }
+      }
+      let button = document.querySelector("button");
+      button.addEventListener("click", joinUs);
+    </script>
+  </body>
+</html>
